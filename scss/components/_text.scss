@@ -1,7 +1,12 @@
 .text {
   width: 70%;
+  @include respond(phone-med) {
+    width: 100%;
+  }
+
   font-size: 1.6rem;
   margin: 0 auto;
+
   span {
     display: inline-block;
     margin-bottom: 1rem;
