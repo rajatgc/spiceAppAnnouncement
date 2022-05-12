@@ -35,6 +35,7 @@ html {
 .row {
   max-width: 114rem;
   margin: 0 auto;
+  padding-bottom: 4rem;
   @include respond(tab-land) {
     //width < 1200px ?
     max-width: 100rem;
@@ -48,7 +49,8 @@ html {
   @include respond(phone) {
     //width < 1200px ?
     max-width: 100%;
-    padding: 0 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 

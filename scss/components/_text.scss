@@ -1,5 +1,6 @@
 .text {
   width: 70%;
+
   @include respond(phone-med) {
     width: 90%;
   }
