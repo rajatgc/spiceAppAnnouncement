@@ -94,6 +94,12 @@ body {
   width: 40%;
 }
 
+@media only screen and (max-width: 48em) {
+  .imgHeader img {
+    width: 100%;
+  }
+}
+
 .text {
   width: 70%;
   font-size: 1.6rem;
@@ -102,7 +108,7 @@ body {
 
 @media only screen and (max-width: 48em) {
   .text {
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -111,8 +117,14 @@ body {
   margin-bottom: 1rem;
 }
 
+@media only screen and (max-width: 48em) {
+  .text span {
+    margin-bottom: 0.5rem;
+  }
+}
+
 .text .text-content {
-  padding: 2rem 0;
+  padding: 0.5rem 0 2rem 0;
 }
 
 .text .text-content .para:not(:first-child) {

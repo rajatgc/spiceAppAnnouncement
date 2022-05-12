@@ -3,5 +3,8 @@
   text-align: center;
   img {
     width: 40%;
+    @include respond(phone-med) {
+      width: 100%;
+    }
   }
 }
