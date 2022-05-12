@@ -3,7 +3,7 @@
   @include respond(phone-med) {
     width: 90%;
   }
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin: 0 auto;
   span {
     display: inline-block;
@@ -13,13 +13,12 @@
     }
   }
   .text-content {
+    text-align: justify;
     padding: 0.5rem 0 2rem 0;
     .para:not(:first-child) {
       margin-top: 1rem;
     }
-    .para-1 {
-      font-weight: 500;
-    }
+
     .para-5 {
       font-weight: 500;
       ul {
